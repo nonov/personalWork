@@ -1,0 +1,422 @@
+﻿body
+{
+	width: 100%;
+	margin: auto;
+	margin-top: 57px;
+	margin-bottom: 39px;
+	overflow-y: hidden;
+	overflow-x: auto;
+	font-family: 'Antic Didone', serif;
+}
+
+/* BARRE DE NAVIGATION */
+#haut
+{
+	width: 100%;
+	text-align: center;
+	background-color: rgba(255,255,255,0.7);
+	position: fixed;
+	top: 0;
+	height: auto;
+}
+	/* LOGO LYON 1 */
+	#accueil
+	{	
+		position: absolute;
+		left: 2%;
+		top: 0;
+		width: 15%;
+	}
+
+	#haut ul
+	{
+		display: inline-block;
+		width: 100%;
+		margin: 0;
+		vertical-align: top;
+		padding: 0;
+		border-bottom: 0.1em dotted;
+	}
+	
+	#haut ul li
+	{
+		display: inline-block;
+		padding: 1em 3em;
+   		font-weight: bold;
+	   	transition: 0.2s;
+	}
+	
+	#haut ul li:hover
+	{
+		background-color: rgb(200,200,200);
+	}
+	
+	#haut ul li a
+	{
+		transition: 0.8s;
+		text-decoration: none;
+		color: black;
+		font-family: Didot, Raleway, Gill sans, Times New Roman, sans serif;
+		font-variant: small-caps;
+		font-weight: normal;
+		font-size: 130%;
+	}
+	
+	#haut ul li a:hover
+	{
+		color: red;
+	}
+	.actualLi
+	{
+		border-bottom: 0.5 em solid black;
+	}
+
+
+/* PAGES */
+#home
+{
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	background-image: url(images/home.jpg);
+	background-size: 100%;
+	background-repeat:no-repeat;
+	text-align: center;
+}
+
+#iut
+{
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	left: 100%;
+	background-image: url(images/iut.jpg);
+	background-size: 100%;
+	background-repeat:no-repeat;
+	text-align: center;
+}
+
+#campus
+{
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	left: 200%;
+	background-image: url(images/campus.jpg);
+	background-size: 100%;
+	background-repeat:no-repeat;
+	text-align: center;
+}
+
+#lyon
+{
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	left: 300%;
+	background-image: url(images/lyon1.jpg);
+	background-size: 100%;
+	background-repeat:no-repeat;
+	text-align: center;
+}
+
+#admission
+{
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	left: 400%;
+	background-image: url(images/admission.jpg);
+	background-size: 100%;
+	background-repeat:no-repeat;
+	text-align: center;
+}
+
+#contact
+{
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	left: 500%;
+	background-image: url(images/contact.jpg);
+	background-size: 100%;
+	background-repeat:no-repeat;
+	text-align: center;
+}
+
+/* BLOC CONTENU */
+.title
+{		
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	margin-top: 0;
+}
+
+.gauche
+{
+	width: 20%;
+	height: auto;
+	position: absolute;
+	top: 5%;
+	left: 4%;
+}
+
+#gauche1
+{
+	width: 20%;
+	height: auto;
+	position: absolute;
+	top: 5%;
+	left: 4%;
+	background-color: rgba(244,210,122,0.9);
+}
+
+.gauche img
+{
+	width: 100%;
+	height: 35%;
+}
+
+.centre
+{
+	background-color: rgba(243,141,92, 0.9);
+	width: 50%;
+	display: inline-block;
+	text-align: justify;
+	margin-top: 0.5%;
+	color: black;
+	border: 0.1em solid transparent;
+	border-radius: 0.5em;
+}
+
+.centre img
+{
+	width: 10%;
+}
+
+.droite
+{
+	width: 20%;
+	height: auto;
+	position: absolute;
+	background-color: rgba(175,193,204, 0.8);
+	right: 4%;
+	top: 5%;
+}
+
+.droite img
+{
+	width: 100%;
+	height: 35%;
+}
+
+/* CONTACTS */
+#guide
+{
+	width: 100%;
+	border-bottom: 0.1em dotted rgb(190,190,190);
+}
+
+#guide img
+{
+	width: 50%;
+	height: 50%;
+}
+
+#guide p
+{
+	margin-bottom: 2em;
+}
+
+#advice
+{
+	width: 100%;
+	margin-top: 3em;
+}
+
+#advice p
+{
+	width: 100%;
+	margin: 0;
+	}
+
+
+#advice img
+{
+	width: 50%;
+	height: 50%;
+}
+
+iframe
+{
+	width: 100%;
+	height: 60vh;
+	border: none;
+	margin-bottom: 0;
+}
+
+#button
+{
+	width: 100%;
+	transition: 1s;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin: 0;
+	background-color: rgb(4,131,217);
+}
+
+#button:hover
+{
+	background-color: rgb(230,230,230);
+}
+
+#button a:hover
+{
+	color: rgb(4,131,217);
+}
+
+#officetourisme
+{
+	width: 50%;
+}
+
+/* FLECHES DIRECTIONNELLES */
+.arrowleft
+{
+	top: 40%;
+	left: 0.5%;
+	position: absolute;
+	width: 2em;	
+}
+
+.arrowright
+{
+	top: 40%;
+	right: 0.5%;
+	position: absolute;
+	width: 2em;
+}
+
+/* MAIL */
+span
+{
+	color: blue;
+}
+
+
+/* COPYRIGHTS */
+#bas
+{
+	width: 100%;
+	text-align: center;
+	background-color: white;
+	position: fixed;
+	bottom: 0;
+}
+
+#bas p
+{
+	font-weight: normal;
+	font-size: 80%;
+	color: black;
+}
+
+/* TEXT */
+.centre1
+{
+	text-align: center;
+	background-color: rgba(243,141,92, 0.9);/*rgba(83,182,250, 0.6)*/;
+	border: 0.1em solid transparent;
+	border-radius: 0.5em;
+	width: 50%;
+	display: inline-block;
+	margin-top: 0.5%;
+	color: black;
+}
+
+#information
+{
+	border-top: 0.1em dotted grey;
+	width: 80%;
+	display: inline-block;
+}
+.centre p
+{
+	text-indent: 2em;
+}
+
+.droite p
+{
+	padding-bottom: 3em;
+}
+
+.droite a
+{
+	transition: 0.8s;
+}
+
+.droite a:hover
+{
+	color: orange;
+}
+
+p
+{
+	color: black;
+	font-weight: normal;
+	font-size: 110%;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+h1
+{
+	font-size: 200%;
+}
+
+strong
+{	
+	font-weight: bold;
+	font-size: 100%;
+}
+
+.slideshow
+{  
+	width: 35%; 
+	height: 35%;
+	margin-left: 33%; 
+	margin-top: 1em;
+	overflow: hidden; 
+    border: 3px solid #F2F2F2;  
+}  
+      
+.slideshow ul 
+{  
+	width: 600%; 
+    padding:0; 
+    margin:0;         
+    list-style: none;  
+}  
+    
+.slideshow li
+{  
+ 	float: left;
+ 	width: 16.6666666666%;
+}
+
+.slideshow img
+{
+	width: 100%;
+	height: 100%;
+}
+ 

@@ -1,0 +1,52 @@
+﻿@media only screen and (max-width: 868px) {
+
+#haut ul li a
+	{
+		transition: 0.8s;
+		text-decoration: none;
+		color: black;
+		font-family: Didot, Raleway, Gill sans, Times New Roman, sans serif;
+		font-variant: small-caps;
+		font-weight: normal;
+		font-size: 100%;
+	}
+	
+	#haut ul li
+	{
+		display: inline-block;
+		padding: 1em 1em;
+   		font-weight: bold;
+	   	transition: 0.2s;
+	}
+	
+	.droite
+	{
+		display: none;
+	}
+	
+	.gauche
+	{
+		display: none;
+	}
+	
+	#gauche1
+	{
+		width: 50%;
+		height: auto;
+		position: absolute;
+		top: 60%;
+		left: 25%;
+		background-color: rgba(244,210,122,0.9);
+	}
+	
+	.centre
+	{
+		width: 100%;
+	}
+	
+	.title
+	{
+		width: 100%;
+	}
+
+}

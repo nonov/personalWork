@@ -1,0 +1,293 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,600);
+html { 
+  	background: url(../images/Home.jpg) no-repeat center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family:'Lucida Grande','Raleway','Josefin Sans', 'Times New Roman', 'Sans Serif';
+	font-weight: lighter;
+	color:  rgb(145,200,200);
+	text-align: center;
+	/*overflow: hidden;*/
+}
+
+/* -----------------------------
+-------- PARTIE HOME -----------*/
+
+h1
+{
+	width: 100%;
+	padding: 0;
+	margin-top: 10%;
+	margin-bottom: 25%;
+	font-size: 300%;
+	font-weight: lighter;
+	color: orange;
+}
+
+#enterBtn
+{
+	font-size: 170%;
+	border: 3px solid transparent;	
+	border-radius: 50%;
+	padding: 6% 4% 6% 4%;
+	background-color: rgba(195,195,195, 0.3);
+	transition: 1s;
+}
+
+
+#enterBtn:hover
+{
+	background-color: transparent;
+	color: rgb(179,194,5);
+}
+
+
+/* ---------------------------
+---- PARTIE PRESENTATION -----*/
+
+#parties nav {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	margin: 0;
+	background-color: rgba(195,195,195, 0.3);
+}
+	
+#parties nav ul {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#parties nav ul li {
+	text-align: center;
+	width: 15%;
+	padding: 2em 1.5em 2em 1.5em;
+	display: inline-block;	
+	transition: 1s;
+	margin: 0;
+	cursor: pointer;
+} 
+
+#block {
+	width: 100%;
+	height: 77px;
+	display: inline-block;
+	margin: 0;
+}
+
+#center {
+	width: 100%;
+	margin-top: 0%;
+	padding-top: 2%;
+	background-color: rgba(41,41,41,0.3);
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+#droite {
+	width: 30%;
+	padding-top: 2%;
+	display: inline-block;
+	margin-right: 0;
+	text-align: center;
+}
+
+#milieu {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin-top: 5%;
+}
+
+#milieu img {
+	border-radius: 100%;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+}
+	
+#gauche {
+	width: 30%;
+	padding-top: 2%;
+	display: inline-block;
+	text-align: center;
+}
+
+#gauche img {
+	padding: 2em;
+	border: 1px solid grey;
+	border-radius: 100%;
+}
+
+#gauche img:hover {
+	border: 1px solid orange;
+}
+
+#center h1 {
+	text-align: center;
+	font-size: 400%;
+	font-weight: normal;
+	margin: 0;
+	color:  rgb(179,194,5);
+}
+	
+#acceuil:hover {
+	background-color: rgb(231, 76, 60);
+}
+
+#presentation:hover {
+	background-color: rgb(22, 160, 133);
+}
+
+#cv:hover {
+	background-color: rgb(39, 174, 96);
+}
+
+#projets:hover {
+	background-color: rgb(41, 128, 185);
+}
+
+#portfolio:hover {
+	background-color: rgb(142, 68, 173);
+}
+
+#contact:hover {
+	background-color: rgb(44, 62, 80);
+}
+
+a {
+	text-decoration: none;
+	font-size: 100%;
+	font-weight: normal;
+	font-variant: small-caps;
+	color: black;
+	margin: 0;
+}
+
+p {
+	font-size: 110%;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	padding: 0.5em 0 0.5em 0;
+	text-align: center;
+	width: 100%;
+	background-color: rgba(195,195,195, 0.9);
+	color: black;
+}
+
+#current {
+	color: orange;
+}
+
+h2 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 200%;
+	color:  rgb(179,194,5);
+}
+
+h3 {
+	cursor: pointer;
+	margin: auto;
+	width: 80%;
+	text-align: center;
+	font-variant: small-caps;
+	padding-bottom: 1em;
+	border-bottom: 0.1em dotted rgb(179,194,5);
+	color:  rgb(179,194,5);
+    
+}
+
+h4 {
+	font-size: 110%;
+	font-weight: bold;
+}
+
+#cvContent {
+	width: 100%;
+	margin-top: 0%;
+	padding-top: 2%;
+	background-color: rgba(41,41,41,0.3);
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+#cvContent ul {
+	width: 100%;
+	text-align: center;
+	padding: 0;
+}
+
+#cvContent ul li {
+	text-align: center;
+	width: 20%;
+	display: inline-block;	
+	margin: 2em;
+} 
+
+#slideshows {
+	width: 300%;
+	margin: auto;
+	background-color: black /*rgba(41,41,41,0.3)*/;
+}
+
+#slideshow1 {
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 0;
+    padding-left: 0;
+}
+
+#slideshow2 {
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 100%;
+    padding-left: 0;
+}
+
+#slideshow1 div {
+	display:inline-block;
+	margin-top: 2em;
+	vertical-align: top;
+	width: 30%;
+	padding-left: 2%;
+}
+
+#slideshow2 div {
+	display:inline-block;
+	margin-top: 2em;
+	vertical-align: top;
+	width: 30%;
+	padding-left: 2%;
+}
+
+#slideshow3 div {
+	display:inline-block;
+	margin-top: 2em;
+	vertical-align: top;
+	width: 30%;
+	padding-left: 2%;
+}
+
+aside {
+	text-align: center;
+	width: 100%;
+}
+	

@@ -1,0 +1,688 @@
+﻿body
+{ 
+	width: 100%;
+	margin: auto;
+	background-image: url(images/fond.jpg);
+	counter-reset : numTitre;
+}
+
+/* header */
+header
+{	
+	display: inline-block;
+	vertical-align: top;
+	background-color: rgb(195,195,195);
+	width: 100%;
+	counter-reset : num;
+}
+
+#connection
+{
+	display: inline-block;
+}
+
+#connection ul li
+{
+	list-style-type: none;
+	font-size: 80%;
+}
+
+#inscription
+{
+	display: inline-block;
+}
+
+#inscription ul li
+{
+	list-style-type: none;
+	font-size: 80%;
+}
+
+#logo
+{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+#logo img
+{
+	width: 15%;	
+}
+
+/*Menu*/
+#haut
+{
+	text-align: center;
+	border-top: 0.1em solid;
+	border-bottom: 0.08em solid;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*ul*/
+#haut ul
+{
+	padding-left: 0;
+ 	display: inline-block;
+ 	margin: auto;
+}
+
+/*li*/
+#haut ul li
+{
+	padding: 1em;
+   	font-weight: bold;
+   	display: inline-block;
+}
+
+#haut ul li a:hover
+{
+	color: red;
+}
+
+/* Page actuelle */
+#top1
+{
+	color: black;
+}
+
+#top2
+{
+	color: orange;
+}
+
+
+/* Liens */
+a
+{
+	transition: 1s;
+	text-decoration: none;
+	color: rgb(255,255,255);
+	font-family: Roboto, Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-size: 130%;			
+}
+
+/* Sous menu */
+#soushaut
+{
+ 	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+	text-align: center;
+	display: block;
+	background-color: rgb(62,15,7);
+}
+
+#yann
+{
+	margin-right: 5em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	vertical-align: top;
+	width: auto;
+	display: inline-block;
+   	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+   	-o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    border: 20px solid rgb(118,88,98);
+    border-radius: 10px; 
+ 	overflow: hidden;
+    -webkit-box-shadow: 5px 5px 5px #111;
+    box-shadow: 5px 5px 5px #111;
+    background-color:  rgb(118,88,98);
+}
+
+#yann:hover 
+{
+  	border: 30px solid rgb(118,88,98);
+  	border-radius: 50%;
+	background-color: rgb(118,88,98);
+}
+
+#yann1
+{
+	margin-right: 5em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	vertical-align: top;
+	width: auto;
+	display: inline-block;
+   	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+   	-o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    border: 30px solid orange;
+    border-radius: 50%; 
+ 	overflow: hidden;
+    -webkit-box-shadow: 5px 5px 5px #111;
+    box-shadow: 5px 5px 5px #111; 
+    background-color: orange;
+}
+
+#noe
+{
+	margin-left: 5em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	width: auto;
+	display: inline-block;
+   	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+   	-o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    border: 20px solid rgb(118,88,98);
+    border-radius: 10px; 
+ 	overflow: hidden;
+    -webkit-box-shadow: 5px 5px 5px #111;
+    box-shadow: 5px 5px 5px #111;
+    background-color:  rgb(118,88,98);
+}
+
+#noe:hover 
+{
+  	border: 30px solid rgb(118,88,98);
+  	border-radius: 50%;
+  	background-color:  rgb(118,88,98);
+}
+
+#noe1
+{
+	margin-left: 5em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	width: auto;
+	display: inline-block;
+   	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+   	-o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    border: 30px solid orange;
+    border-radius: 50%; 
+ 	overflow: hidden;
+    -webkit-box-shadow: 5px 5px 5px #111;
+    box-shadow: 5px 5px 5px #111;
+    background-color: orange;
+}
+
+.perso
+{
+	width: 10em;    
+}
+
+/* Wallpaper */
+#wallpaper
+{
+	width: 80%;
+	margin-top: 2em;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 2em;
+}
+
+
+/*Menu bas*/
+#bas
+{
+	display: inline-block;
+	width: 100%;
+}
+/*img ski*/
+#ski
+{
+	display: inline-block;
+	width: 2.5em;
+	margin-top: 1.5em;
+	margin-left: 1.5em;
+}
+
+/* Menu gauche */
+#gauche
+{
+	margin-left: 6.25%;
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+}
+
+/*ul*/
+#gauche ul
+{
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 2em;
+}
+
+/*li*/
+#gauche ul li
+{
+	padding-bottom: 1em;
+}
+ 
+/*transition*/
+.bottom:hover
+{
+	color: #0a0;
+	padding-left: 5em;
+}
+
+/* img */
+#skieur
+{
+	width: 2em;
+	margin-left: 2em;
+}
+
+/* Menu milieu */
+#milieu
+{	
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+	margin-left: 6.25%;
+	border-right: 0.1em dotted black;
+	border-left: 0.1em dotted black;
+}
+
+/* img lyon 1 */
+#lyon1
+{	
+	margin-top: 0.5em;
+	width: 9.5em;
+}
+
+/* creators */
+p
+{
+	font-family: Roboto, Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: center;
+}
+
+/* université */
+strong
+{
+	color: rgb(255,255,255);
+	font-family: Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-size: 130%;
+}
+
+/* Menu droite */
+#droite
+{
+	display: inline-block;
+	width: 25%;	
+	text-align: center;
+	vertical-align: top;
+	margin-left: 6.25%;
+}
+
+/* icon facebook */
+#facebook
+{
+	width: 2em;
+	padding-right: 2em;
+	margin-top: 6em;
+	margin-bottom: 4.5em;
+}
+
+/* icon twitter */
+#twitter
+{
+	width: 2em;
+	margin-top: 6em;
+	margin-bottom: 4.5em;
+}
+
+/* icon tumblr */
+#tumblr
+{
+	width: 2em;
+	padding-left: 2em;
+	margin-top: 6em;
+	margin-bottom: 4.5em;
+}
+
+/* icon google */
+#google
+{
+	width: 2em;
+	padding-left: 2em;
+	margin-top: 6em;
+	margin-bottom: 4.5em;
+}
+
+
+/* Cadres CV */
+#center
+{
+	 background-color: rgb(62,135,152);
+	 text-align: center;
+	 padding: 1em;
+}
+
+nav
+{
+	border: 0.1em transparent;
+	border-radius: 4em;
+	padding-bottom: 3em;
+	font-size : 120%;
+	width: 50%;
+	padding-top: 3em;
+	margin-left: 25%;
+	background-color: rgb(83,179,219);
+}
+
+/* lignes CV */
+nav > p
+{	
+	text-align: left;
+	margin-left: 1em;
+}
+
+/* curriculum vitae */
+#titre
+{
+	text-align: center;
+	font-family: Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-size: 200%;
+	margin: 1em;
+	border: 0.1em;
+	border-radius: 0.2em;
+	width: 40%;
+	background-color: white;
+	margin: auto;
+	
+}
+
+/* compteur */
+h2::before
+{
+	counter-increment : numTitre ;
+	content : counter(numTitre, upper-roman) "." ;
+}
+
+/* titre h2 */
+h2
+{
+	font-family: Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3::before
+{
+	counter-increment : num ;
+	content : counter(num, upper-roman) "." ;
+}
+
+/* titre h3 */
+#informatique
+{	
+	display: inline-block;
+	font-family: Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	text-align: left;
+	width: 40%;
+	margin-left: 1em;
+	text-align: center;
+}
+
+/* titre h3 */
+#autre
+{
+	display: inline-block;
+	font-family: Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	text-align: center;
+	width: 40%;
+	margin-left: 4em;
+	vertical-align: top;
+}
+
+/* Page localisation */
+/*lien google maps */
+#gmap
+{
+	display: none;
+}
+
+small
+{
+    background-color: rgb(245,122,44);
+    display: inline-block;
+    padding: 0.5em 2em;
+    margin-bottom: 0px;
+    margin-top: 3em;
+    text-align: center;
+    border-radius: 4px;
+    border-right: 0.1em solid transparent;
+    border-bottom: 0.1em solid transparent;
+    box-shadow: 5px 5px 5px #111;
+    -webkit-box-shadow: 5px 5px 5px #111;
+}
+
+small:hover 
+{
+	background-color: #1baae3;
+}
+
+small:focus
+{
+	border-right: 0;
+    border-bottom: 0;
+    border-top: 0.1em solid rgb(61,58,58);
+    border-left: 0.1em solid rgb(61,58,58);
+    transition: none;
+}
+
+#map
+{
+	width: 40em;
+	margin-left: 25%;
+	text-align: center;
+}
+
+#map p iframe
+{
+	width: 640px; 
+	height: 480px;
+	margin: 0;
+	border: 0.1em solid transparent;
+	border-radius: 2em;
+	box-shadow: 5px 5px 5px #111;
+    -webkit-box-shadow: 5px 5px 5px #111;
+}
+
+#map p
+{
+	margin-bottom: 0;
+}
+
+
+/* Shops */
+#shop
+{
+	width: 100%;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align: center;
+}
+.caracimg
+{
+	display: inline-block;
+	border: 0.1em solid transparent;
+	border-radius: 2em;
+	margin-right: 3em;
+	
+}
+
+.caracimg img
+{
+	width: 10em;
+}
+
+.carac
+{
+	display: inline-block;
+	width: 50%;
+	border: 0.2em solid transparent;
+	border-radius: 3em;
+	vertical-align: top;
+	background-color: yellow;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align: center;
+	margin-left: 3em;
+}
+
+.carac p
+{
+	display: inline-block;
+	vertical-align: top;
+	padding: 2em;
+}
+
+
+h1
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-family: Roboto, Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-size: 200%;
+	text-align: center;
+}
+
+
+/* Formulaire */
+form
+{
+	text-align: center;
+	padding: 40px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#login
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#login-case
+{
+	padding: 1em;
+	border-radius: 3px;
+}
+
+input
+{
+	font-size: 100%;
+}
+
+/* Bouton */
+.btn-lg 
+{
+    background-color: rgb(245,122,44);
+    display: inline-block;
+    padding: 0.5em 2em;
+    margin-bottom: 0px;
+    text-align: center;
+    border-radius: 4px;
+    border-right: 0.1em solid transparent;
+    border-bottom: 0.1em solid transparent;
+}
+
+.btn-lg:hover 
+{
+	background-color: #1baae3;
+}
+
+.btn-lg:focus
+{
+	border-right: 0;
+    border-bottom: 0;
+    border-top: 0.1em solid rgb(61,58,58);
+    border-left: 0.1em solid rgb(61,58,58);
+    transition: none;
+}
+
+.btn-pa 
+{
+    background-color: rgb(245,122,44);
+    display: inline-block;
+    padding: 0.5em 2em;
+    text-align: center;
+    border-radius: 4px;
+    border-right: 0.1em solid transparent;
+    border-bottom: 0.1em solid transparent;
+}
+
+.btn-pa:hover 
+{
+	background-color: #1baae3;
+}
+
+.btn-pa:focus
+{
+	border-right: 0;
+    border-bottom: 0;
+    border-top: 0.1em solid rgb(61,58,58);
+    border-left: 0.1em solid rgb(61,58,58);
+    transition: none;
+}
+
+
+/* Tableaux de prix */
+table
+{
+	display: inline-block;
+	border-collapse: collapse;
+}
+
+th
+{
+	font-family: Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-size: 170%;
+	padding: 1em;
+	border: solid rgb(133,133,133);
+}
+
+td
+{
+	font-family: Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	text-align: center;
+	font-size: 150%;
+	color: green;
+	border: solid rgb(133,133,133);
+}
+
+
+

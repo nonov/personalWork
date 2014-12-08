@@ -1,0 +1,289 @@
+﻿@media only screen and (max-width:1100px) {
+body
+{	
+	counter-reset : numTitre ;
+	margin: auto;
+	background: rgb(190,190,190);
+}
+
+/*Logo*/
+header
+{
+	text-align: center;
+}
+
+header img
+{
+	display: inline-block;
+	width: 20%;
+	text-align: center;	
+}
+
+/*Menu*/
+#haut
+{
+	text-align: center;
+}
+
+/*Img accueil*/
+#home
+{
+	width: 1em;
+	display: inline-block;
+	margin-right: 0;
+}
+
+/*ul*/
+#haut ul
+{
+ 	display: inline-block;
+ 	width: auto;
+}
+
+/*li*/
+#haut ul li
+{
+	padding-right: 2em;
+   	font-weight: bold;
+   	display: inline-block;  
+}
+
+/*sous menu*/
+#soushaut
+{
+	text-align: center;
+}
+
+/* ul */
+#soushaut ul
+{
+ 	display: inline-block;
+ 	padding-left: 2em;
+ 	width: auto;
+ 	
+}
+
+/* li */
+#soushaut ul li
+{
+	margin: 0;
+	padding-right: 2em;
+   	font-weight: bold;
+   	display: inline-block;  
+}
+
+#ski, #bas, #dvpt, #reseaux, #dvpt p, #home, iframe, #map small a
+{
+	display: none;
+}
+
+nav
+{
+	font-size : 90%;
+	margin-bottom: 3em;
+	border: 0;
+}
+
+nav > p
+{	
+	text-align: left;
+}
+
+h1
+{
+	text-align: center;
+	font-family: Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+}
+
+h2::before
+{
+counter-increment : numTitre ;
+content : counter(numTitre, upper-roman) "." ;
+}
+
+h2
+{
+	font-family: Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: bold;
+	text-align: center;	
+}
+
+#informatique
+{	
+	
+	font-family: Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	width: auto;
+	text-align: center;
+}
+
+#autre
+{
+	font-family: Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	text-align: center;
+	width: 40%;
+}
+
+/* image lyon1 et creators */
+#dvpt
+{	
+	margin-top: 2em;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+/* img lyon 1 */
+#lyon1
+{	
+	width: 9em;
+}
+
+/* encart réseaux sociaux */
+#reseaux
+{
+	background-image: url(images/text.jpg);
+	margin-top: 2em;
+	margin-left: 30%;
+	border: 0.5em;
+	border-radius: 30px 0 30px 0;
+	box-shadow: 6px 6px 50px black;
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* icon facebook */
+#facebook
+{
+	width: 2em;
+	padding: 0;
+}
+
+/* icon twitter */
+#twitter
+{
+	width: 2em;
+	padding: 0;
+}
+
+/* icon tumblr */
+#tumblr
+{
+	width: 2em;
+	padding: 0;
+}
+
+/* icon google */
+#google
+{
+	width: 2em;
+	padding: 0;
+}
+
+/* cadre a propos */
+#about
+{
+	text-align: center;
+	display: block;
+}	
+
+/* img a propos */
+#about img
+{
+	border: 0.3em inset;
+	border-radius: 30px; 
+	width: 18em;
+}
+
+/*lien google maps */
+#gmap
+{
+	text-align: center;
+	display: block;
+}
+
+#gmap img
+{
+	width: 15em;
+}
+
+.shop
+{
+	background-color: white;
+	width: 80%;
+	margin-left: 10%;
+	border-radius: 30px;
+	border: thin solid rgb(133,133,133);
+	margin-bottom:1em;
+}
+
+.shop img
+{
+	width: 5em;
+	margin-top: 2em;
+	vertical-align: middle;
+}
+
+.carac
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 2em;
+	margin-left: 15%;
+	width: 50%;
+}
+
+.carac p
+{
+	font-family: Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-size: 100%;
+}
+table
+{
+	display: inline-block;
+	margin-left: 25%;
+	border-collapse: collapse;
+}
+
+th
+{
+	font-family: Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-size: 70%;
+	padding: 1em;
+	border: thin solid rgb(133,133,133);
+}
+
+td
+{
+	font-family: Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	text-align: center;
+	font-size: 100%;
+	color: green;
+	border: thin solid rgb(133,133,133);
+}
+
+button
+{
+	display: block;
+	vertical-align: bottom;
+	margin-left: 45%;
+	font-family: Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	text-align: center;
+	font-size: 100%;
+}
+
+
+}

@@ -1,0 +1,134 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Portfolio - Noé Viricel</title>
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="css/style.css" media="screen">
+		<link rel="stylesheet" href="css/media-queries.css" media="screen">
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="js/js.js"></script>
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+		<![endif]-->
+		<script style="text/javascript">
+		$(document).ready(function(){
+           		$('#parties').fadeIn(1000);
+   			});
+   			
+		<!--// [CDATA[
+   		function divaffiche(){
+      		document.getElementById("popup").style.display = "block";
+      		document.getElementById("cache").style.display = "inline";
+      		document.getElementById("voir").style.display = "none";
+    	}
+    	function divcache(){
+    		document.getElementById("popup").style.display = "none";
+      		document.getElementById("cache").style.display = "none";
+      		document.getElementById("voir").style.display = "inline";
+    	}
+ 
+		// ]] -->
+   		</script>
+
+	</head>
+
+	<body>
+	
+	<section id="parties">	
+		<div id="block">	
+			<nav>
+				<ul>
+				<a href="index.html" class="transition" ><li id="acceuil">Accueil</li></a><!--
+				--><a href="presentation.html" class="transition" ><li id="presentation">Présentation</li></a><!--
+				--><a href="cv.html" id="current" class="transition"><li id="cv">CV</li></a><!--
+				--><a href="projets.html" class="transition"><li id="projets">Projets</li></a><!--
+				--><a href="portfolio.html" class="transition"><li id="portfolio">Portfolio</li></a><!--
+				--><a href="contact.html" class="transition"><li id="contact">Contact</li></a>
+				</ul>
+			</nav>
+		</div>
+		
+		<article id="cvContent">
+			<h2>Noé VIRICEL</h2>
+			
+			<ul>
+				<li>20 Rue Jules Vallès Villeurbanne 69100</li>
+				<li>Tél : 06 48 10 69 98</li>
+				<li>noe.viricel@orange.fr</li>
+			</ul>
+		</article>
+
+		<div id="slideshows">
+			<input type="button" id="voir" value="afficher le code." onClick="divaffiche()" style="display:inline;"/>
+			<input type="button" id="cache" value="cacher le code." onClick="divcache()" style="display:none;"/>
+			<div id="popup" style="display:none;height:5em; width:300px;margin:auto;border:solid;"></div>
+			
+			
+				<div id="slideshow1">
+					<h3 id="experience">Expérience</h3>
+			
+					<div>
+						<h4>Employé: Assistant technicien LED – Alabama Média SARL	Juillet 2013 – Août 2013</h4>
+						<p>-	Participation à la réalisation d’un décor en LED pour la tournée de Mylène Farmer.</p>
+						<p>-	Installation d’écrans plein jour LED pour le festival MUSILAC (Aix-les-Bains).</p>
+						<p>-	Maintenance sur des écrans plein jour LED.</p>
+					</div>
+				
+					<div>
+						<h4>Employé: Vendeur – Floriane Horticulture	Octobre 2012</h4>
+						<p>-	Préparation des marchés.</p>
+						<p>-	Vente de fleurs sur les marchés.</p>
+				
+						<h4>Bénévole: Bénévole – Aluna festival (Ruoms)	Juin 2012</h4>
+						<p>-	Nettoyage du site.</p>
+						<p>-	Assistant en cuisines pour le restaurant des artistes.</p>
+						<p>-	DJ en fin de soirée. </p>
+					</div>
+				
+					<div>
+						<h4>Encadrant: Entraîneur de foot – AS Charly					     2010 – 2012</h4>
+		    		  	<p>- 	Entraînement d’une équipe de 20 enfants (8 – 10 ans).</p>
+					</div>
+				</div>
+				
+				<div id="slideshow2">		
+					<h3 id="formation">Formation</h3>
+
+					<div>
+						<h4>DUT - Université Claude Bernard.	2013 - 2014</h4>
+							<p>-	Option Informatique.</p>
+					</div>
+				
+					<div>
+						<h4>Baccalauréat en Sciences et Technologies du Développement Durable - Lycée Edouard BRANLY.	2012 - 2013</h4>
+							<p>-	Option Systèmes d’Informations et Numérique.</p>
+							<p>-	Mention BIEN.</p>
+							<p>-	Mention Anglais Européen.</p>
+					</div>
+				
+					<div>
+						<h4>Brevet des collèges - Collège Daisy Georges Martin.  2009 – 2010</h4>
+							<p>-	Mention BIEN.</p>
+					</div>
+				</div>
+				
+				<div id="slideshow3">
+					<h3>Compétences</h3>
+			
+					<div>
+						<h4> Sports & Langues. </h4>
+							<p>-	Anglais niveau B1+.</p>
+							<p>-	Espagnol niveau B1.</p>
+							<p>-	Sports : Badminton, foot, gymnastique, et tennis en club.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<footer>&copy; 2014 Noé Viricel. HTML5 Valide.</footer>
+	</body>
+</html>

@@ -1,0 +1,628 @@
+﻿html 
+{ 
+  	background-image: url(images/fond.jpg); no-repeat center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+body
+{ 
+	width: 100%;
+	margin: auto;
+	counter-reset : numTitre;
+}
+
+/* header */
+header
+{	
+	display: inline-block;
+	background-color: rgb(195,195,195);
+	width: 100%;
+	counter-reset : num;
+}
+
+header div {
+    display: inline-block;
+    width: 49%;
+}
+
+header ul li
+{
+	display: inline-block;
+	margin-right: 2%;
+	font-size: 80%;
+	transition: 1s;
+}
+
+#connexion_head {
+    text-align: right;
+}
+
+header ul li:hover {
+	color: red;
+}
+
+/* Logo E-Ski Shop */
+#logo
+{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+#logo img
+{
+	width: 15%;	
+}
+
+
+/*Menu*/
+#haut
+{
+	text-align: center;
+	border-top: 0.1em solid;
+	border-bottom: 0.08em solid;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#haut ul
+{
+	padding-left: 0;
+ 	display: inline-block;
+ 	margin: auto;
+}
+
+#haut ul li
+{
+	padding: 1em;
+   	font-weight: bold;
+   	display: inline-block;
+}
+
+ul li a:hover
+{
+	color: red;
+}
+
+
+/* Page actuelle */
+#top1
+{
+	color: black;
+}
+
+
+/* Liens */
+a
+{
+	transition: 1s;
+	text-decoration: none;
+	color: rgb(255,255,255);
+	font-family: Roboto, Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-size: 130%;			
+}
+
+/* sous menu */
+#soushaut{
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+#noe
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	width: auto;
+	display: inline-block;
+   	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+   	-o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    border: 20px solid rgb(118,88,98);
+    border-radius: 10px; 
+ 	overflow: hidden;
+    -webkit-box-shadow: 5px 5px 5px #111;
+    box-shadow: 5px 5px 5px #111;
+    background-color:  rgb(118,88,98);
+}
+
+#noe:hover 
+{
+  	border: 30px solid rgb(230,230,230);
+  	border-radius: 50%;
+  	background-color:  rgb(230,230,230);
+}
+
+#noe1
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	width: auto;
+	display: inline-block;
+   	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+   	-o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    border: 30px solid orange;
+    border-radius: 50%; 
+ 	overflow: hidden;
+    -webkit-box-shadow: 5px 5px 5px #111;
+    box-shadow: 5px 5px 5px #111;
+    background-color: orange;
+}
+
+.perso
+{
+	width: 10em;    
+}
+
+/* Wallpaper */
+#wallpaper
+{
+	width: 80%;
+	margin-top: 2em;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 2em;
+}
+
+/*Menu bas*/
+#bas
+{
+	margin-top: 5%;
+	display: inline-block;
+	width: 100%;
+	border-top: 0.1em dotted black;
+	padding-top: 6px;
+}
+/*img ski*/
+#ski
+{
+	display: inline-block;
+	width: 2.5em;
+	margin-top: 1.5em;
+	margin-left: 1.5em;
+}
+
+/* Menu gauche */
+#gauche
+{
+	margin-left: 6.25%;
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+}
+
+/*ul*/
+#gauche ul
+{
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 2em;
+}
+
+/*li*/
+#gauche ul li
+{
+	padding-bottom: 1em;
+}
+ 
+/*transition*/
+.bottom:hover
+{
+	color: #0a0;
+	padding-left: 5em;
+}
+
+/* img */
+#skieur
+{
+	width: 2em;
+	margin-left: 2em;
+}
+
+/* Menu milieu */
+#milieu
+{	
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+	margin-left: 6.25%;
+	border-right: 0.1em dotted black;
+	border-left: 0.1em dotted black;
+}
+
+/* img lyon 1 */
+#lyon1
+{	
+	margin-top: 0.5em;
+	width: 9.5em;
+}
+
+/* creators */
+p
+{
+	font-family: Roboto, Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: center;
+}
+
+/* université */
+strong
+{
+	color: rgb(255,255,255);
+	font-family: Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-size: 130%;
+}
+
+
+/* Menu droite */
+#droite
+{
+	display: inline-block;
+	width: 25%;	
+	text-align: center;
+	vertical-align: top;
+	margin-left: 6.25%;
+}
+
+/* icon facebook */
+#facebook
+{
+	width: 2em;
+	padding-right: 2em;
+	margin-top: 6em;
+	margin-bottom: 4.5em;
+}
+
+/* icon twitter */
+#twitter
+{
+	width: 2em;
+	margin-top: 6em;
+	margin-bottom: 4.5em;
+}
+
+/* icon tumblr */
+#tumblr
+{
+	width: 2em;
+	padding-left: 2em;
+	margin-top: 6em;
+	margin-bottom: 4.5em;
+}
+
+/* icon google */
+#google
+{
+	width: 2em;
+	padding-left: 2em;
+	margin-top: 6em;
+	margin-bottom: 4.5em;
+}
+
+
+
+/* Cadres CV */
+#center
+{
+	 background-color: rgb(62,135,152);
+	 text-align: center;
+	 padding: 1em;
+}
+
+nav
+{
+	border: 0.1em transparent;
+	border-radius: 4em;
+	padding-bottom: 3em;
+	font-size : 120%;
+	width: 70%;
+	padding-top: 3em;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(83,179,219);
+}
+
+/* lignes CV */
+nav > p
+{	
+	text-align: left;
+	margin-left: 1em;
+}
+
+/* curriculum vitae */
+#titre
+{
+	text-align: center;
+	font-family: Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-size: 200%;
+	margin: 1em;
+	border: 0.1em;
+	border-radius: 0.2em;
+	width: 40%;
+	background-color: white;
+	margin: auto;
+	
+}
+
+/* compteur */
+h2::before
+{
+	counter-increment : numTitre ;
+	content : counter(numTitre, upper-roman) "." ;
+}
+
+/* titre h2 */
+h2
+{
+	font-family: Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3::before
+{
+	counter-increment : num ;
+	content : counter(num, upper-roman) "." ;
+}
+
+/* titre h3 */
+#informatique
+{	
+	display: inline-block;
+	font-family: Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	text-align: left;
+	width: 40%;
+	margin-left: 1em;
+	text-align: center;
+}
+
+/* titre h3 */
+#autre
+{
+	display: inline-block;
+	font-family: Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	text-align: center;
+	width: 40%;
+	margin-left: 4em;
+	vertical-align: top;
+}
+
+/* Page localisation */
+/*lien google maps */
+
+section iframe
+{
+	margin-top: 2%;
+}
+
+/* Shops */
+section
+{
+	width: 100%;
+	margin: 0;
+	text-align: center;
+}
+
+section img
+{	
+	display: inline-block;
+	width: 15%;
+}
+
+article {
+  position: relative;
+  width: 60%;
+  background: rgb(195,195,195);
+  -moz-border-radius: 4px;
+  border-radius: 30px;
+  padding: 2em 1.5em;
+  color: rgba(0,0,0, .6);
+  text-shadow: 0 1px 0 #fff;
+  line-height: 1.5;
+  margin: 60px auto;
+  text-align: center;
+}
+
+
+article:before, article:after {
+  z-index: -1; 
+  position: absolute; 
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%; 
+  top: 80%;
+  max-width: 300px;
+  background: rgba(0, 0, 0, 0.7); 
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.7);
+  transform: rotate(-3deg);
+}
+
+article:after {
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+form
+{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin-left: 15%;
+}
+
+form[name="connection"]
+{
+	margin: 5% 0 0 0 ;
+	padding: 0;
+	width: 50%;
+}
+
+form[name="connection"] input
+{
+    display: inline-block;
+    padding: 2%;
+}
+
+input
+{
+	border-radius: 3px;
+	padding: 2%;
+}
+
+textarea 
+{
+	border-radius: 20px;
+	padding: 3%;
+	margin-top: 4px;
+}
+
+input[name="message"]
+{
+	width: 200%;
+}
+
+h1
+{
+	font-family: Roboto, Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-size: 200%;
+	text-align: center;
+}
+
+input
+{
+	font-size: 100%;
+}
+
+#delete_cross {
+    
+}
+
+.btn-acht
+{	
+	background-color: rgb(245,122,44);
+    display: inline-block;
+    padding: 0.5em 2em;
+    text-align: center;
+    border-radius: 4px;
+    border-right: 0.1em solid transparent;
+    border-bottom: 0.1em solid transparent;
+}
+
+.btn-pa 
+{
+    background-color: rgb(245,122,44);
+    display: inline-block;
+    padding: 0.5em 2em;
+    text-align: center;
+    border-radius: 4px;
+    border-right: 0.1em solid transparent;
+    border-bottom: 0.1em solid transparent;
+}
+
+.btn-pa:hover 
+{
+	background-color: #1baae3;
+}
+
+.btn-pa:focus
+{
+	border-right: 0;
+    border-bottom: 0;
+    border-top: 0.1em solid rgb(61,58,58);
+    border-left: 0.1em solid rgb(61,58,58);
+    transition: none;
+}
+
+/* Bouton */
+.btn-lg 
+{
+    background-color: rgb(245,122,44);
+    display: inline-block;
+    padding: 0.5em 2em;
+    margin-bottom: 0px;
+    text-align: center;
+    border-radius: 4px;
+    border-right: 0.1em solid transparent;
+    border-bottom: 0.1em solid transparent;
+}
+
+.btn-lg:hover 
+{
+	background-color: #1baae3;
+}
+
+.btn-lg:focus
+{
+	border-right: 0;
+    border-bottom: 0;
+    border-top: 0.1em solid rgb(61,58,58);
+    border-left: 0.1em solid rgb(61,58,58);
+    transition: none;
+}
+
+
+/* Panier d'achats */
+table
+{
+	display: inline-block;
+	border-collapse: collapse;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+th
+{
+	font-family: Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-size: 170%;
+	padding: 1em;
+	border: 0.1em solid black;
+}
+
+td
+{
+	font-family: Gill sans, Times New Roman, sans serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	text-align: center;
+	font-size: 150%;
+	color: green;
+	border: 0.1em solid black;
+}
+
+

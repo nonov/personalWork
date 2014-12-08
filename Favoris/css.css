@@ -1,0 +1,63 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,300,700);
+
+html { 
+  	background: url(images/Home.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', 'Times New Roman', 'Sans Serif';
+	color: rgb(41,41,41);
+}
+
+h1 {
+	font-size: 300%;
+	font-variant: small-caps;
+	width: 100%;
+	text-align: center;
+}
+
+aside {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+div {
+	display: inline-block;
+	vertical-align: top;
+	margin: 10%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+aside img {
+	margin: 10%;
+	margin-top: 0;
+	margin-bottom: 5%;
+	border: 2px solid transparent;
+	border-radius: 100%;
+}
+
+aside img:hover {
+	border: 2px solid orange;
+	border-radius: 100%;
+}
+
+
+
+footer {
+	position: absolute;
+	bottom: 0;
+	padding: 0.5em 0 0.5em 0;
+	text-align: center;
+	width: 100%;
+	background-color: rgba(41,41,41, 0.5);
+	color: rgb(195,195,195);
+}
